@@ -1,0 +1,11 @@
+const express = require("express");
+const app = express();
+const jwt = require("jsonwebtoken");
+const userRoutes = require("./routes/userRoutes");
+const productRoutes = require("./routes/productRoutes");
+app.use(express.json());
+app.use("/api/users/", userRoutes);
+app.use("/api/products/", productRoutes);
+app.use(express.static(`${__dirname}/public`));
+// });
+module.exports = app;
