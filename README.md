@@ -1,6 +1,7 @@
 User-ProductAPI
 API to authenticate and authorize users, store and return user data, store product data using .csv file and return product data
-Routes are : 
+Routes:
+
 Get all user data : (need JWT authentication)
 GET http://localhost:3000/api/users/
 
