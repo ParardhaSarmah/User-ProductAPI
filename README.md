@@ -1,4 +1,3 @@
-#User-Product API
 User-Product API
 API to authenticate and authorize users, store and return user data, store product data using .csv file and return product data
 Routes:
