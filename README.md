@@ -1,5 +1,8 @@
 User-Product API
-API to authenticate and authorize users, store and return user data, store product data using .csv file and return product data
+
+
+API to authenticate and authorize users, store and return user data(using MongoDB), store product data using .csv file and return product data
+
 Routes:
 
 Get all user data : (need JWT authentication)
