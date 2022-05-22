@@ -9,7 +9,7 @@ Get all user data : (need JWT authentication)
 GET http://localhost:3000/api/users/
 
 Get user data by username : (need JWT authentication)
-GET http://localhost:3000/api/users/12345
+GET http://localhost:3000/api/users/<Username>
 
 Signup : (returns JWT signed token)
 POST http://localhost:3000/api/users/signup
